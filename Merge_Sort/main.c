@@ -1,6 +1,25 @@
+/**************************************************************************************************/
+/*  Copyright (C)   USTC@2014-2015    pengjiade@gmail.com                                         */
+/*                                                                                                */
+/*  FILE NAME             :  main.c                                                               */
+/*  PRINCIPAL AUTHOR      :  PengJiade                                                            */
+/*  SUBSYSTEM NAME        :  quicksort                                                            */
+/*  MODULE NAME           :  quicksort                                                            */
+/*  LANGUAGE              :  C                                                                    */
+/*  TARGET ENVIRONMENT    :  ANY                                                                  */
+/*  DATE OF FIRST RELEASE :  2014/10/07                                                           */
+/*  DESCRIPTION           :  merge sort algorithms                                                */
+/**************************************************************************************************/
+/*
+ * Revision log:
+ *
+ * Created by PengJiade, 2014/10/07
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
-#include "mergesort.h"
+#include "quicksort.h"
 
 int main()
 {
