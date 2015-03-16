@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 存放菜名,每一个都是一个String -->
+    <string-array name="cold_dish_name">
+        <item >糖醋金针菇</item>
+        <item >凉拌马兰</item>
+        <item >洋葱伴木耳</item>
+        <item >香辣卷心菜</item>
+        <item >香卤鸭掌</item>
+        <item >椒麻油淋鸡</item>
+        <item >凉拌猪心</item>
+        <item >凉拌腊耳丝</item>
+        <item >醋泡花生米</item>
+        <item >尖椒变蛋</item>
+    </string-array>
+    <string-array name="hot_dish_name">
+        <item >剁椒鱼头</item>
+        <item >茶树菇炒腊肉</item>
+        <item >手撕包菜</item>
+        <item >毛氏红烧肉</item>
+        <item >清蒸甲鱼</item>
+        <item >东安子鸡</item>
+        <item >冰糖湘莲</item>
+        <item >腊味合蒸</item>
+        <item >湘西外婆菜</item>
+        <item >潇湘猪手</item>
+        <item >水煮活鱼</item>
+        <item >土鸡汤</item>
+        <item >长沙臭豆腐</item>
+        <item >武冈香干</item>
+        <item >蒜蓉蒸基围虾</item>
+        <item >剁椒芋头</item>
+        <item >芹菜鱿鱼</item>
+    </string-array>
+    <string-array name="seafood_name">
+        <item >白灼虾</item>
+        <item >龙井虾仁</item>
+        <item >黄鱼炖豆腐</item>
+        <item >海鲜卤面</item>
+        <item >清蒸大闸蟹</item>
+        <item >椒盐撒尿虾</item>
+        <item >鼓汁炒青口</item>
+        <item >雪绒丝蒸扇贝</item>
+        <item >油焖大虾</item>
+        <item >鲍汁海参</item>
+        <item >海鲜汤</item>
+    </string-array>
+    <string-array name="drink_name">
+        <item >果粒橙/加多宝</item>
+        <item >可口/百事可乐</item>
+        <item >雪碧/芬达</item>
+        <item >雪花啤酒</item>
+        <item >红星二锅头</item>
+        <item >衡水老白干</item>
+        <item >20年西凤</item>
+        <item >精装五粮液</item>
+    </string-array>
+</resources>

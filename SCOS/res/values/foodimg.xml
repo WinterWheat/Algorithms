@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 存放图片资源,每一个都是一个resourceid -->
+    <string-array name="cold_dish_img">
+        <item >@drawable/dish1_1</item>
+        <item >@drawable/dish1_2</item>
+        <item >@drawable/dish1_3</item>
+        <item >@drawable/dish1_4</item>
+        <item >@drawable/dish1_5</item>
+        <item >@drawable/dish1_6</item>
+        <item >@drawable/dish1_7</item>
+        <item >@drawable/dish1_8</item>
+        <item >@drawable/dish1_9</item>
+        <item >@drawable/dish1_10</item>
+    </string-array>
+    <string-array name="hot_dish_img">
+        <item >@drawable/dish2_1</item>
+        <item >@drawable/dish2_2</item>
+        <item >@drawable/dish2_3</item>
+        <item >@drawable/dish2_4</item>
+        <item >@drawable/dish2_5</item>
+        <item >@drawable/dish2_6</item>
+        <item >@drawable/dish2_7</item>
+        <item >@drawable/dish2_8</item>
+        <item >@drawable/dish2_9</item>
+        <item >@drawable/dish2_10</item>
+        <item >@drawable/dish2_11</item>
+        <item >@drawable/dish2_12</item>
+        <item >@drawable/dish2_13</item>
+        <item >@drawable/dish2_14</item>
+        <item >@drawable/dish2_15</item>
+        <item >@drawable/dish2_16</item>
+        <item >@drawable/dish2_17</item>
+    </string-array>
+    <string-array name="seafood_img">
+        <item >@drawable/dish3_1</item>
+        <item >@drawable/dish3_2</item>
+        <item >@drawable/dish3_3</item>
+        <item >@drawable/dish3_4</item>
+        <item >@drawable/dish3_5</item>
+        <item >@drawable/dish3_6</item>
+        <item >@drawable/dish3_7</item>
+        <item >@drawable/dish3_8</item>
+        <item >@drawable/dish3_9</item>
+        <item >@drawable/dish3_10</item>
+        <item >@drawable/dish3_11</item>
+    </string-array>
+    <string-array name="drink_img">
+        <item >@drawable/dish4_1</item>
+        <item >@drawable/dish4_2</item>
+        <item >@drawable/dish4_3</item>
+        <item >@drawable/dish4_4</item>
+        <item >@drawable/dish4_5</item>
+        <item >@drawable/dish4_6</item>
+        <item >@drawable/dish4_7</item>
+        <item >@drawable/dish4_8</item>
+    </string-array>
+</resources>

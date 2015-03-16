@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="cold_dish_price">
+        <item >12</item>
+        <item >8</item>
+        <item >8</item>
+        <item >8</item>
+        <item >15</item>
+        <item >20</item>
+        <item >18</item>
+        <item >15</item>
+        <item >8</item>
+        <item >12</item>
+    </integer-array>
+    <integer-array name="hot_dish_price">
+        <item >32</item>
+        <item >24</item>
+        <item >10</item>
+        <item >32</item>
+        <item >40</item>
+        <item >28</item>
+        <item >22</item>
+        <item >26</item>
+        <item >16</item>
+        <item >28</item>
+        <item >24</item>
+        <item >26</item>
+        <item >20</item>
+        <item >16</item>
+        <item >38</item>
+        <item >22</item>
+        <item >24</item>
+    </integer-array>
+    <integer-array name="seafood_price">
+        <item >32</item>
+        <item >40</item>
+        <item >30</item>
+        <item >20</item>
+        <item >40</item>
+        <item >36</item>
+        <item >32</item>
+        <item >36</item>
+        <item >36</item>
+        <item >30</item>
+        <item >24</item>
+    </integer-array>
+    <integer-array name="drink_price">
+        <item >8</item>
+        <item >4</item>
+        <item >8</item>
+        <item >5</item>
+        <item >10</item>
+        <item >46</item>
+        <item >68</item>
+        <item >108</item>
+    </integer-array>
+    
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/food_order_view_line"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/food_order_view_back" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/food_order_view_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="403dp"
+        android:layout_weight="0.39" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:layout_weight="0.48"
+        android:gravity="center_horizontal" >
+		
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜品总数:" />
+
+        <TextView
+            android:id="@+id/dishcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"/>
+        
+		<TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单总价:" />
+        
+        <TextView
+            android:id="@+id/prices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"/>
+
+       
+        <Button
+            android:id="@+id/food_order_view_submitbt"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结账" />
+
+    </LinearLayout>
+
+</LinearLayout>

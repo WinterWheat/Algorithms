@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="es.source.code.activity.FoodView" >
+    <!-- 每一项都是要显示的菜单条目 -->
+    <item
+        android:id="@+id/have_order"
+        android:orderInCategory="100"
+        android:title="@string/have_order"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/view_list"
+        android:orderInCategory="200"
+        android:title="@string/view_list"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/call_serve"
+        android:orderInCategory="300"
+        android:title="@string/call_serve"
+        android:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/start_updata"
+		android:orderInCategory="300"
+        android:title="@string/start_updata"
+        android:showAsAction="always">
+    </item>
+    
+    
+    
+</menu>

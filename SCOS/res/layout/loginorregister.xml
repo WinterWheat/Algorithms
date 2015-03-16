@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/loginbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/main_bg" />
+
+    <TextView
+        android:id="@+id/passward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="25dp"
+        android:text="@string/login_passwardlab"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/usernamebox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/username"
+        android:layout_alignBottom="@+id/username"
+        android:layout_toRightOf="@+id/passward"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="57dp"
+        android:text="@string/login_usernamelab"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/passwardbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/passward"
+        android:layout_alignBottom="@+id/passward"
+        android:layout_alignLeft="@+id/usernamebox"
+        android:layout_alignRight="@+id/usernamebox"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/loginpage_registerbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="registerClick"
+            android:text="@string/login_regbt" />
+
+        <Button
+            android:id="@+id/loginpage_loginbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="loginOkClick"
+            android:text="@string/login_loginbt" />
+
+        <Button
+            android:id="@+id/loginpage_returnbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="returnClick"
+            android:text="@string/login_returnbt"/>
+    </LinearLayout>
+
+</RelativeLayout>

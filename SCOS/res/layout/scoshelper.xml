@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <!-- 设置列数为2,宽度间隙自动 
+    	对于这条属性,设置了就是宽读多余则平分给各列
+	    android:stretchMode="columnWidth"-->
+    <GridView 
+        android:id="@+id/scoshelper_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:verticalSpacing="10dp"
+	    android:horizontalSpacing="10dp"
+	    android:numColumns="2"
+	    android:stretchMode="columnWidth"
+	    android:gravity="center"
+        >
+    </GridView>
+
+    
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">SCOC</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dish_list">菜单</string>
+    <string name="loginorreg">登录/注册</string>
+    <string name="order">点菜</string>
+    <string name="view">查看菜单</string>
+    <string name="help">帮助</string>
+    <string name="have_order">已点菜品</string>
+    <string name="view_list">查看订单</string>
+    <string name="call_serve">呼叫服务</string>
+    <string name="start_updata">启动实时更新</string>
+    <string name="detailed_dataup_check">dishname</string>
+    <string name="login_usernamelab">登录名　: </string>
+    <string name="login_passwardlab">登录密码: </string>
+    <string name="login_loginbt">登录</string>
+    <string name="login_regbt">注册</string>
+    <string name="login_returnbt">返回</string>
+    <string name="help_userprotocol">用户使用协议</string>
+    <string name="help_aboutsystem">关于系统</string>
+    <string name="help_mobile">电话人工服务</string>
+    <string name="help_sms">短信帮助</string>
+    <string name="help_e_mail">邮件帮助</string>
+    <string name="notify_button">清除</string>
+</resources>
