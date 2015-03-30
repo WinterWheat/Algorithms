@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1412861979 source:e:\github\algorithms\rbtree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rbtree.h"
+
+1412862298 e:\github\algorithms\rbtree\rbtree.h
+	<stdio.h>
+	<stdlib.h>
+
+1412862034 source:e:\github\algorithms\rbtree\rbtree.c
+	"rbtree.h"
+
